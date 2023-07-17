@@ -22,7 +22,7 @@ public class Reserva {
     private LocalDate dataMarcada;
     @ManyToOne
     @JoinColumn(name = "user_id")
-    private User user;
+    private Usuario usuario;
     @ManyToOne
     @JoinColumn(name = "contrato_id")
     private Contrato contrato;

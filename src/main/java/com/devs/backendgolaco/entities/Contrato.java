@@ -18,7 +18,7 @@ public class Contrato {
     private Long id;
     @ManyToOne
     @JoinColumn(name = "user_id")
-    private User user;
+    private Usuario usuario;
     private String frequencia;
     private String horario;
     private String diaSemana;
